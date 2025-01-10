@@ -1,0 +1,127 @@
+nav {
+  display: flex;
+  justify-content: space-between;
+  padding: 0px 0px 24px 0px;
+}
+
+header {
+  padding: 24px 128px 24px 128px;
+}
+
+.header-container {
+  background-color: rgba(245, 245, 245, 1);
+  display: flex;
+  width: 100%;
+  align-items: center;
+  gap: 32px 80px;
+  font-family: Fira Sans, sans-serif;
+  justify-content: space-between;
+  flex-wrap: wrap;
+  padding: 24px 128px;
+}
+.brand-title {
+  color: rgba(14, 14, 14, 1);
+  font-size: 26px;
+  font-weight: 700;
+  font-family: Fira Sans;
+  margin: 0;
+}
+.auth-button {
+  align-self: stretch;
+  font-family: Fira Sans;
+  border-radius: 8px;
+  gap: 32px 38px;
+  font-size: 18px;
+  color: rgba(0, 106, 80, 1);
+  font-weight: 600;
+  margin: 0;
+  padding: 15px 30px;
+  border: 1px solid rgba(0, 106, 80, 1);
+  background: none;
+  cursor: pointer;
+}
+.auth-button:hover,
+.auth-button:focus {
+  background-color: rgba(0, 106, 80, 0.1);
+  outline: none;
+}
+.auth-button:focus-visible {
+  outline: 2px solid rgba(0, 106, 80, 1);
+  outline-offset: 2px;
+}
+
+.hero-container {
+  border-radius: 24px;
+  background-color: rgba(198, 228, 214, 1);
+  align-self: center;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 800px;
+  gap: 32px 51px;
+  font-family: Fira Sans, sans-serif;
+  /* flex-wrap: wrap; */
+  padding: 80px 100px 80px 100px;
+  /* margin-left: 100px; */
+}
+
+.content-wrapper {
+  display: flex;
+  min-width: 240px;
+  flex-direction: column;
+  justify-content: start;
+  flex-grow: 1;
+  width: 422px;
+  /* margin: 0px 51px; */
+  /* padding: 80px 100px 80px 100px; */
+}
+
+.text-content {
+  display: flex;
+  width: 100%;
+  flex-direction: column;
+  justify-content: start;
+}
+
+.subtitle {
+  font-family: Fira Sans;
+  color: rgba(14, 14, 14, 0.5);
+  font-size: 19px;
+  font-weight: 500;
+}
+
+.main-heading {
+  font-family: Fira Sans;
+  color: rgba(14, 14, 14, 1);
+  font-size: 45px;
+  font-weight: 700;
+  margin-top: 16px;
+  line-height: 53px;
+  letter-spacing: 0%;
+  text-align: left;
+}
+
+.cta-button {
+  font-family: Fira Sans;
+  align-self: start;
+  border-radius: 8px;
+  background-color: rgba(0, 106, 80, 1);
+  margin-top: 19px;
+  gap: 40px 48px;
+  font-size: 14px;
+  color: rgba(255, 255, 255, 1);
+  font-weight: 600;
+  padding: 17px 34px;
+  border: none;
+  cursor: pointer;
+}
+
+.hero-image {
+  aspect-ratio: 1.18;
+  object-fit: contain;
+  object-position: center;
+  width: 350px;
+  min-width: 240px;
+  flex-grow: 1;
+  /* margin: auto 0; */
+}
