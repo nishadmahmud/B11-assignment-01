@@ -59,13 +59,14 @@ header {
   background-color: rgba(198, 228, 214, 1);
   align-self: center;
   display: flex;
-  justify-content: center;
+  justify-content: space-between;
+  /* flex-direction: column; */
   align-items: center;
-  width: 800px;
+  width: 850px;
   gap: 32px 51px;
   font-family: Fira Sans, sans-serif;
   /* flex-wrap: wrap; */
-  padding: 80px 100px 80px 100px;
+  padding: 80px 100px 80px 60px;
   /* margin-left: 100px; */
 }
 
@@ -75,9 +76,9 @@ header {
   flex-direction: column;
   justify-content: start;
   flex-grow: 1;
-  width: 422px;
+  width: 498px;
   /* margin: 0px 51px; */
-  /* padding: 80px 100px 80px 100px; */
+  /* padding: 50px 0px 50px 100px; */
 }
 
 .text-content {
@@ -121,13 +122,12 @@ header {
 }
 
 .hero-image {
-  aspect-ratio: 1.18;
-  object-fit: contain;
   object-position: center;
   width: 350px;
   min-width: 240px;
-  flex-grow: 1;
-  /* margin: auto 0; */
+  
+  /* padding: 50px 100px 50px 0px; */
+  margin: auto 0;
 }
 
 .pillars-container {
