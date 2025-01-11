@@ -708,3 +708,107 @@ header {
   background-color: lightblue;
   color: black;
 }
+
+.container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  min-height: 100vh;
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+.newsletter-container {
+  border-radius: 24px;
+  background-color: rgba(198, 228, 214, 1);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 950px;
+  gap: 40px 64px;
+  font-family: Fira Sans, sans-serif;
+  padding: 80px 10px 80px 10px;
+}
+
+.newsletter-content {
+  align-self: stretch;
+  display: flex;
+  min-width: 240px;
+  width: 750px;
+  flex-direction: column;
+  align-items: center;
+  justify-content: start;
+}
+
+.newsletter-header {
+  align-self: stretch;
+  display: flex;
+  width: 100%;
+  flex-direction: column;
+  align-items: center;
+  text-align: center;
+  justify-content: start;
+}
+
+.newsletter-title {
+  color: rgba(14, 14, 14, 1);
+  font-size: 40px;
+  font-weight: 700;
+  margin-top: -10px;
+}
+
+.newsletter-description {
+  color: rgba(14, 14, 14, 0.7);
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 24px;
+  width: 680px;
+  margin-top: -20px;
+}
+
+.subscription-form {
+  display: flex;
+  margin-top: 24px;
+  align-items: start;
+  justify-content: start;
+  flex-wrap: wrap;
+}
+
+.email-input {
+  border-radius: 8px 0 0 8px;
+  background-color: rgba(255, 255, 255, 1);
+  min-width: 240px;
+  width: 500px;
+  font-size: 16px;
+  color: rgba(14, 14, 14, 0.3);
+  font-weight: 400;
+  padding: 18px 40px;
+  border: none;
+}
+
+.submit-button {
+  border-radius: 0 8px 8px 0;
+  background-color: rgba(0, 106, 80, 1);
+  font-size: 18px;
+  color: rgba(255, 255, 255, 1);
+  font-weight: 600;
+  padding: 17px 34px;
+  border: none;
+  cursor: pointer;
+}
+
+.submit-button:hover {
+  background-color: lightblue;
+  color: black;
+}
+
+.privacy-notice {
+  color: rgba(14, 14, 14, 0.7);
+  font-size: 16px;
+  font-weight: 400;
+  text-align: center;
+  margin-top: 24px;
+  margin-bottom: -10px;
+}
