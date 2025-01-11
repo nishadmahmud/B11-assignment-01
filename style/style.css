@@ -122,6 +122,11 @@ header {
   cursor: pointer;
 }
 
+.cta-button:hover {
+   background-color: lightblue;
+   color: black;
+ }
+
 .hero-image {
   object-position: center;
   width: 350px;
@@ -471,7 +476,7 @@ header {
   padding: 27px;
   border: 1px solid rgba(14, 14, 14, 0.15);
 }
-.answer-button {
+/* .answer-button {
   border-radius: 4px;
   background-color: rgba(198, 228, 214, 1);
   display: flex;
@@ -482,7 +487,7 @@ header {
   padding: 10px 14px;
   border: 1px solid rgba(14, 14, 14, 1);
   cursor: pointer;
-}
+} */
 .answer-select {
   border-radius: 4px;
   background-color: rgba(198, 228, 214, 1);
@@ -500,6 +505,11 @@ header {
 .answer-option {
   padding: 10px 14px;
 }
+
+.answer-select:hover {
+   background-color: lightblue;
+   color: black;
+ }
 
 .news-container {
   display: flex;
@@ -580,6 +590,11 @@ header {
   cursor: pointer;
   border: none;
 }
+
+.read-more-btn:hover {
+   background-color: lightblue;
+   color: black;
+ }
 
 .donation-container {
   display: flex;
