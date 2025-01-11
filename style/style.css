@@ -344,6 +344,8 @@ header {
   line-height: 24px;
 }
 .testimonial-author {
+  display: flex;
+  flex-direction: column;
   margin-top: 12px;
   width: 100%;
 }
@@ -476,18 +478,7 @@ header {
   padding: 27px;
   border: 1px solid rgba(14, 14, 14, 0.15);
 }
-/* .answer-button {
-  border-radius: 4px;
-  background-color: rgba(198, 228, 214, 1);
-  display: flex;
-  width: 100%;
-  align-items: center;
-  gap: 12px;
-  justify-content: center;
-  padding: 10px 14px;
-  border: 1px solid rgba(14, 14, 14, 1);
-  cursor: pointer;
-} */
+
 .answer-select {
   border-radius: 4px;
   background-color: rgba(198, 228, 214, 1);
@@ -689,6 +680,7 @@ header {
   font-weight: 400;
   justify-content: center;
   padding: 20px 100px 20px 100px;
+  border-radius: 5px;
 }
 
 .custom-amount::-webkit-inner-spin-button,
@@ -890,7 +882,7 @@ header {
   width: 26px;
 }
 
-footer{
-   display: flex;
-   justify-content: center;
+footer {
+  display: flex;
+  justify-content: center;
 }
