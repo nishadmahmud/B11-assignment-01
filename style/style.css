@@ -8,6 +8,8 @@ body {
   background: #f1f1f3;
 }
 
+/* header section */
+
 header {
   padding: 24px 128px 24px 128px;
 }
@@ -54,12 +56,19 @@ header {
   outline-offset: 2px;
 }
 
+/* hero section  */
+
+.hero{
+   display: flex;
+   justify-content: center;
+}
+
 .hero-container {
   border-radius: 24px;
   background-color: rgba(198, 228, 214, 1);
   align-self: center;
   display: flex;
-  justify-content: space-between;
+  justify-content: center;
   /* flex-direction: column; */
   align-items: center;
   width: 850px;
@@ -131,9 +140,14 @@ header {
   object-position: center;
   width: 350px;
   min-width: 240px;
-
-  /* padding: 50px 100px 50px 0px; */
   margin: auto 0;
+}
+
+/* pillars section */
+
+.pillers{
+   display: flex;
+   justify-content: center;
 }
 
 .pillars-container {
@@ -175,7 +189,7 @@ header {
   flex-direction: column;
   justify-content: start;
   flex-grow: 1;
-  width: 194px;
+  width: 19px;
   margin: auto 0;
   padding: 24px;
   border: 1px solid rgba(14, 14, 14, 0.15);
@@ -207,6 +221,13 @@ header {
   font-weight: 400;
   line-height: 19px;
   margin-top: 12px;
+}
+
+/* vison section */
+
+.vision{
+   display: flex;
+   justify-content: center;
 }
 
 .vision-section {
@@ -314,6 +335,14 @@ header {
   background-color: rgba(255, 194, 57, 1);
   margin-top: 25px;
 }
+
+/* testtimonial section */
+
+.testimonial{
+   display: flex;
+   justify-content: center;
+}
+
 .testimonial-section {
   display: flex;
   margin-top: 32px;
@@ -327,8 +356,7 @@ header {
   border-radius: 16px;
   background-color: #fff;
   display: flex;
-  /* min-width: 240px; */
-  width: 150%;
+  /* width: 150%; */
   flex-direction: column;
   flex: 1;
   padding: 48px 24px;
@@ -366,6 +394,13 @@ header {
   top: -23px;
   width: 64px;
   height: 64px;
+}
+
+/* opinion section  */
+
+.opinion{
+   display: flex;
+   justify-content: center;
 }
 
 .opinion-section {
@@ -502,6 +537,11 @@ header {
   color: black;
 }
 
+.news{
+   display: flex;
+   justify-content: center;
+}
+
 .news-container {
   display: flex;
   margin-top: 20px;
@@ -513,6 +553,7 @@ header {
 .news-header {
   width: 100%;
   flex-direction: column;
+  padding: 24px 128px 24px 0;
 }
 .news-title {
   color: rgba(14, 14, 14, 1);
@@ -529,7 +570,7 @@ header {
 .news-content {
   margin-top: 2px;
   width: 94%;
-  padding: 24px 128px 24px 128px;
+  padding: 24px 128px 24px 0;
 }
 .news-card {
   border-radius: 24px;
@@ -585,6 +626,14 @@ header {
 .read-more-btn:hover {
   background-color: lightblue;
   color: black;
+}
+
+/* donation section  */
+
+.donation{
+   display: flex;
+   justify-content: center;
+   align-items: center;
 }
 
 .donation-container {
@@ -685,8 +734,8 @@ header {
 
 .custom-amount::-webkit-inner-spin-button,
 .custom-amount::-webkit-outer-spin-button {
-  -webkit-appearance: none; /* Safari and Chrome */
-  margin: 0; /* Safari and Chrome */
+  -webkit-appearance: none;
+  margin: 0;
 }
 
 .donate-button-container {
@@ -715,6 +764,8 @@ header {
   background-color: lightblue;
   color: black;
 }
+
+/* news letter section  */
 
 .container {
   display: flex;
@@ -819,6 +870,8 @@ header {
   margin-top: 24px;
   margin-bottom: -10px;
 }
+
+/* footer section  */
 
 .footer-container {
   background-color: rgba(255, 255, 255, 1);
