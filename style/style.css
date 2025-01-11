@@ -195,6 +195,10 @@ header {
   border: 1px solid rgba(14, 14, 14, 0.15);
 }
 
+.pillar-card:hover{
+   background-color: rgb(226, 229, 232);
+}
+
 .pillar-icon {
   aspect-ratio: 1;
   object-fit: contain;
@@ -288,12 +292,21 @@ header {
 .digital-card {
   background-color: rgba(84, 144, 245, 0.2);
 }
+.digital-card:hover{
+   background-color: rgba(10, 64, 156, 0.2);
+}
 .green-card {
   background-color: rgba(198, 228, 214, 1);
 }
+.green-card:hover {
+   background-color: rgb(136, 218, 180);
+ }
 .infrastructure-card {
   background-color: rgba(247, 235, 207, 1);
 }
+.infrastructure-card:hover {
+   background-color: rgb(244, 222, 170);
+ }
 .feature-icon {
   width: 80px;
   aspect-ratio: 1;
