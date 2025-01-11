@@ -274,7 +274,7 @@ header {
   background-color: rgba(247, 235, 207, 1);
 }
 .feature-icon {
-  width: 64px;
+  width: 80px;
   aspect-ratio: 1;
   object-fit: contain;
 }
