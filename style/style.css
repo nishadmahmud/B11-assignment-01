@@ -934,6 +934,10 @@ header {
   margin: auto 0;
 }
 
+.social-icon:hover{
+   background-color: rgba(198, 228, 214, 1);
+}
+
 .social-icon-secondary {
   aspect-ratio: 1;
   object-fit: contain;
@@ -941,11 +945,19 @@ header {
   width: 24px;
 }
 
+.social-icon-secondary:hover{
+   background-color: rgba(198, 228, 214, 1);
+}
+
 .social-icon-tertiary {
   aspect-ratio: 1.08;
   object-fit: contain;
   object-position: center;
   width: 26px;
+}
+
+.social-icon-tertiary:hover{
+   background-color: rgba(198, 228, 214, 1);
 }
 
 footer {
