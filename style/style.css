@@ -123,9 +123,9 @@ header {
 }
 
 .cta-button:hover {
-   background-color: lightblue;
-   color: black;
- }
+  background-color: lightblue;
+  color: black;
+}
 
 .hero-image {
   object-position: center;
@@ -507,9 +507,9 @@ header {
 }
 
 .answer-select:hover {
-   background-color: lightblue;
-   color: black;
- }
+  background-color: lightblue;
+  color: black;
+}
 
 .news-container {
   display: flex;
@@ -592,9 +592,9 @@ header {
 }
 
 .read-more-btn:hover {
-   background-color: lightblue;
-   color: black;
- }
+  background-color: lightblue;
+  color: black;
+}
 
 .donation-container {
   display: flex;
@@ -826,4 +826,71 @@ header {
   text-align: center;
   margin-top: 24px;
   margin-bottom: -10px;
+}
+
+.footer-container {
+  background-color: rgba(255, 255, 255, 1);
+  display: flex;
+  /* margin-top: 20px; */
+  width: 1000px;
+  flex-direction: column;
+  align-items: center;
+  padding: 50px 160px;
+}
+
+.footer-title {
+  color: rgba(14, 14, 14, 1);
+  font: 700 32px Fira Sans, sans-serif;
+}
+
+.divider {
+  min-height: 1px;
+  margin-top: 32px;
+  width: 1000px;
+  max-width: 100%;
+  border: 1px solid rgba(14, 14, 14, 0.1);
+}
+
+.social-links {
+  display: flex;
+  margin-top: 32px;
+  align-items: start;
+  gap: 23px;
+}
+
+.social-icon-wrapper {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+  width: 24px;
+}
+
+.social-icon {
+  aspect-ratio: 1;
+  object-fit: contain;
+  object-position: center;
+  width: 24px;
+  align-self: stretch;
+  flex: 1;
+  flex-basis: 0%;
+  margin: auto 0;
+}
+
+.social-icon-secondary {
+  aspect-ratio: 1;
+  object-fit: contain;
+  object-position: center;
+  width: 24px;
+}
+
+.social-icon-tertiary {
+  aspect-ratio: 1.08;
+  object-fit: contain;
+  object-position: center;
+  width: 26px;
+}
+
+footer{
+   display: flex;
+   justify-content: center;
 }
